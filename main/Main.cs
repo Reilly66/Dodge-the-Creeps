@@ -48,7 +48,7 @@ public partial class Main : Node2D
 	public void OnMobTimerTimeout() {
 		// create a new mob
 		Mob mob = MobScene.Instantiate<Mob>();
-		
+		mob.AddToGroup("mobs", false);
 		// choose a random location on the path
 		// a random proportion of the total path
 		var mobSpawnLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
