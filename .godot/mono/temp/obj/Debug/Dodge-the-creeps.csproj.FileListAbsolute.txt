@@ -1,0 +1,17 @@
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\Dodge-the-creeps.deps.json
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\Dodge-the-creeps.runtimeconfig.json
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\Dodge-the-creeps.dll
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\Dodge-the-creeps.pdb
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.csproj.AssemblyReference.cache
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.AssemblyInfoInputs.cache
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.AssemblyInfo.cs
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.csproj.CoreCompileInputs.cache
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.csproj.CopyComplete
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.dll
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\refint\Dodge-the-creeps.dll
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.pdb
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\Dodge-the-creeps.genruntimeconfig.cache
+C:\Users\reill\Documents\Godot Practice\Dodge-the-Creeps\Dodge-the-Creeps\.godot\mono\temp\obj\Debug\ref\Dodge-the-creeps.dll

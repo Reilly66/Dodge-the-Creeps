@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YMfDQvivdwN9bzLMtYu6uxjIfLJjUZSyp71CwxmXILMqRdyo9kCUJs8rTz+eVjmEDG1p7Az/pntvyxp0+5MRWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reill\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
+    "C:\\Users\\reill\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
+    "C:\\Users\\reill\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512",
+    "C:\\Users\\reill\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\reill\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\reill\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
