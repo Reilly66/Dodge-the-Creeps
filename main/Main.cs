@@ -34,20 +34,18 @@ public partial class Main : Node2D
 	}
 
 	public void OnStartTimerTimeout() {
-		GD.Print("Start");
 		GetNode<Timer>("MobTimer").Start();
 		GetNode<Timer>("ScoreTimer").Start();
 	}
 
 	public void OnMobTimerTimeout() {
-		GD.Print("mob");
 		// create a new mob
 		Mob mob = MobScene.Instantiate<Mob>();
 		
 		// choose a random location on the path
 		// a random proportion of the total path
-		PathFollow2D mobSpawnLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
-		mobSpawnLocation.ProgressRatio = GD.Randf();
+		var mobSpawnLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
+    	mobSpawnLocation.ProgressRatio = GD.Randf();
 
 		// get position of spawn location
 		Vector2 mobSpawnPosition = mobSpawnLocation.Position;
@@ -56,6 +54,9 @@ public partial class Main : Node2D
 		// add some randomness to the direction
 		direction += (float)GD.RandRange(-Mathf.Pi/6, Mathf.Pi/6);
 		
+		// set mob start position
+		mob.Position = mobSpawnLocation.Position;
+
 		// set mob velocity
 		var velocity = new Vector2((float)GD.RandRange(150.0, 250.0), 0);
     	mob.LinearVelocity = velocity.Rotated(direction);

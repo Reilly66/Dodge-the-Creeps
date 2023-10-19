@@ -17,6 +17,7 @@ public partial class Mob : RigidBody2D
 	}
 
 	private void OnVisibleOnScreenNotifier2DScreenExited() {
+		GD.Print("Pop");
 		QueueFree();
 	}
 

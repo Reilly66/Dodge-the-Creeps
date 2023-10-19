@@ -13,7 +13,7 @@ public partial class Player : Area2D
 
 	public Vector2 ScreenSize;
 
-	private Vector2 DetectInput() {
+	private static Vector2 DetectInput() {
 		var direction = Vector2.Zero;
 		if (Input.IsActionPressed("move_right")) direction.X += 1;
 		if (Input.IsActionPressed("move_left")) direction.X -= 1;
