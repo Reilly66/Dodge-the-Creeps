@@ -6,3 +6,5 @@ res://mob/Mob.cs
 res://mob/Mob.tscn
 res://main/Main.tscn
 res://main/Main.cs
+res://ui/HUD.tscn
+res://ui/HUD.cs
