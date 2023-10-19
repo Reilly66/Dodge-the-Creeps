@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697726211
+::res://::1697730174
 icon.svg::CompressedTexture2D::2031720618479388707::1697726180::1697726195::1::::<><>::
 README.md::TextFile::-1::1697726144::0::1::::<><>::
 ::res://assets/::1697726235
 README.md::TextFile::-1::1695643442::0::1::::<><>::
-::res://assets/art/::1695643442
+::res://assets/art/::1697726238
 enemyFlyingAlt_1.png::CompressedTexture2D::5826883321167752566::1695643442::1697726238::1::::<><>::
 enemyFlyingAlt_2.png::CompressedTexture2D::524111167612801849::1695643442::1697726238::1::::<><>::
 enemySwimming_1.png::CompressedTexture2D::6092638192205438219::1695643442::1697726238::1::::<><>::
@@ -17,7 +17,13 @@ playerGrey_up1.png::CompressedTexture2D::7300945153014737204::1695643442::169772
 playerGrey_up2.png::CompressedTexture2D::7564924806242368533::1695643442::1697726238::1::::<><>::
 playerGrey_walk1.png::CompressedTexture2D::413182394366632424::1695643442::1697726238::1::::<><>::
 playerGrey_walk2.png::CompressedTexture2D::4729912463335977763::1695643442::1697726238::1::::<><>::
-::res://assets/fonts/::1695643442
+::res://assets/fonts/::1697726238
 FONTLOG.txt::TextFile::-1::1695643442::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1695643442::0::1::::<><>::
 Xolonium-Regular.ttf::FontFile::3893409514739595069::1695643442::1697726238::1::::<><>::
+::res://mob/::1697730903
+Mob.tscn::PackedScene::1527201813303541227::1697730903::0::1::::<><>::res://mob/Mob.cs<>uid://cpat6gbbfk487::::res://assets/art/enemyFlyingAlt_1.png<>uid://hp5bfymqc72t::::res://assets/art/enemyFlyingAlt_2.png<>uid://cs2k4jga814jf::::res://assets/art/enemySwimming_1.png<>uid://cwb26k10v6gaa::::res://assets/art/enemySwimming_2.png<>uid://b4snweumi1miu::::res://assets/art/enemyWalking_1.png<>uid://3imyvy2n0085::::res://assets/art/enemyWalking_2.png
+Mob.cs::CSharpScript::-1::1697730887::0::1::::<><>::
+::res://player/::1697730136
+Player.cs::CSharpScript::-1::1697730128::0::1::::<><>::
+player.tscn::PackedScene::3974880251996646333::1697730136::0::1::::<><>::res://player/Player.cs<>uid://dcavq88s6k7sq::::res://assets/art/playerGrey_up1.png<>uid://df1rhaq11bief::::res://assets/art/playerGrey_up2.png<>uid://f5fb3bnf0f4c::::res://assets/art/playerGrey_walk1.png<>uid://b8ng75dx7t4dr::::res://assets/art/playerGrey_walk2.png
