@@ -13,6 +13,18 @@ public partial class Player : Area2D
 
 	public Vector2 ScreenSize;
 
+	private bool _isRestricted;
+
+	public float GetDirectionToPlayer(Vector2 objectPosition) {
+		Vector2 vecToPlayer = (Position - objectPosition).Normalized();
+		if (vecToPlayer.Length() == 0) return 0;
+		return Mathf.Atan2(vecToPlayer.Y, vecToPlayer.X);
+	}
+
+	public void ToggleRestrict() {
+		_isRestricted = !_isRestricted;
+	}
+
 	private static Vector2 DetectInput() {
 		var direction = Vector2.Zero;
 		if (Input.IsActionPressed("move_right")) direction.X += 1;
@@ -26,7 +38,9 @@ public partial class Player : Area2D
 
 	private void AnimatePlayer(Vector2 velocity) {
 		var animatedSprite2D = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
-		if (velocity.Length()>0) {
+		if (velocity.Length() == 0 || _isRestricted) {
+			animatedSprite2D.Stop();
+		} else {
 			animatedSprite2D.Play();
 
 			if (velocity.X != 0) {
@@ -37,12 +51,11 @@ public partial class Player : Area2D
 				animatedSprite2D.Animation = "up";
 				animatedSprite2D.FlipV = velocity.Y > 0;
 			}
-		} else {
-			animatedSprite2D.Stop();
 		}
 	}
-
+	
 	private void MovePlayer(Vector2 velocity, float delta) {
+		if (_isRestricted) return;
 		Position += velocity * delta;
 		Position = new Vector2(
 			x: Mathf.Clamp(Position.X, 0, ScreenSize.X),
@@ -61,6 +74,7 @@ public partial class Player : Area2D
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+		_isRestricted = true;
 		ScreenSize = GetViewportRect().Size;
 		Hide();
 	}

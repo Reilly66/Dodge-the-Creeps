@@ -16,6 +16,7 @@ script = ExtResource("1_jxion")
 MobScene = ExtResource("2_a23qi")
 
 [node name="Player" parent="." instance=ExtResource("1_qttll")]
+Speed = 480
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5

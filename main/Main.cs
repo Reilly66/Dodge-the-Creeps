@@ -9,15 +9,12 @@ public partial class Main : Node2D
 	
 	private int _score;
 
-	private static float GetDirectionToPlayer(Vector2 MobPosition, Vector2 PlayerPosition) {
-		Vector2 vecToPlayer = (PlayerPosition - MobPosition).Normalized();
-		if (vecToPlayer.Length() == 0) return 0;
-		return Mathf.Atan2(vecToPlayer.Y, vecToPlayer.X);
-	}
+	
 
 	public void GameOver() {
 		GetNode<Timer>("MobTimer").Stop();
 		GetNode<Timer>("ScoreTimer").Stop();
+		GetNode<Player>("Player").ToggleRestrict();
 		GetNode<HUD>("HUD").ShowGameOver();
 	}
 
@@ -35,6 +32,8 @@ public partial class Main : Node2D
 		hud.ShowMessage("Get Ready!");
 	}
 
+	
+
 	public void OnScoreTimerTimeout() {
 		_score ++;
 		GetNode<HUD>("HUD").UpdateScore(_score);
@@ -43,33 +42,13 @@ public partial class Main : Node2D
 	public void OnStartTimerTimeout() {
 		GetNode<Timer>("MobTimer").Start();
 		GetNode<Timer>("ScoreTimer").Start();
+		GetNode<Player>("Player").ToggleRestrict();
 	}
 
 	public void OnMobTimerTimeout() {
-		// create a new mob
 		Mob mob = MobScene.Instantiate<Mob>();
-		mob.AddToGroup("mobs", false);
-		// choose a random location on the path
-		// a random proportion of the total path
-		var mobSpawnLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
-    	mobSpawnLocation.ProgressRatio = GD.Randf();
-
-		// get position of spawn location
-		Vector2 mobSpawnPosition = mobSpawnLocation.Position;
-		// get the angle from the mob spawn position to the player
-		float direction = GetDirectionToPlayer(mobSpawnPosition, GetNode<Player>("Player").Position);
-		// add some randomness to the direction
-		direction += (float)GD.RandRange(-Mathf.Pi/6, Mathf.Pi/6);
-		
-		// set mob start position
-		mob.Position = mobSpawnLocation.Position;
-
-		// set mob velocity
-		var velocity = new Vector2((float)GD.RandRange(150.0, 250.0), 0);
-    	mob.LinearVelocity = velocity.Rotated(direction);
-
 		// spawn the mob
-		AddChild(mob);
+		AddChild(mob.SpawnMob(mob, GetNode<Player>("Player"), GetNode<PathFollow2D>("MobPath/MobSpawnLocation")));
 	}
 
 	// Called when the node enters the scene tree for the first time.

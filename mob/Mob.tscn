@@ -53,6 +53,8 @@ position = Vector2(1, 0)
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_4r8gi")
+MinMobSpeed = 300.0
+MaxMobSpeed = 450.0
 metadata/_edit_horizontal_guides_ = [-64.0]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\Dodge-the-creeps.csproj": {}
+    "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-creeps.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\Dodge-the-creeps.csproj": {
+    "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-creeps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
+        "projectUniqueName": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
         "projectName": "Dodge-the-creeps",
-        "projectPath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
+        "projectPath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
         "packagesPath": "C:\\Users\\reill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-Creeps\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reill\\AppData\\Roaming\\NuGet\\NuGet.Config"
