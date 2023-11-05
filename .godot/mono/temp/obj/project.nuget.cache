@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "hLj3NwDz7PX4NmD8pPZOhioRukBKx78eDFz/aSLy/H7CO+BXIlB6YB9PFCtU/gG6EtaZiGIEhLBLzP2Exacv4A==",
+  "dgSpecHash": "2wE5nYI3oiTSG1/SujanwqqaodtbdrLck5ZUPNiCIGXjp9lthjxDuBOBYtSgC0dtndSsgrT00HY5msEmtkPNow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reill\\Documents\\Godot Practice\\Dodge-the-Creeps\\Dodge-the-creeps.csproj",
+  "projectFilePath": "/Users/reilly/Programming/Dodge-the-Creeps/Dodge-the-creeps.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\reill\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
-    "C:\\Users\\reill\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
-    "C:\\Users\\reill\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512",
-    "C:\\Users\\reill\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\reill\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
-    "C:\\Users\\reill\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512"
+    "/Users/reilly/.nuget/packages/godot.sourcegenerators/4.1.3/godot.sourcegenerators.4.1.3.nupkg.sha512",
+    "/Users/reilly/.nuget/packages/godotsharp/4.1.3/godotsharp.4.1.3.nupkg.sha512",
+    "/Users/reilly/.nuget/packages/godotsharpeditor/4.1.3/godotsharpeditor.4.1.3.nupkg.sha512",
+    "/Users/reilly/.nuget/packages/microsoft.netcore.app.ref/6.0.24/microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "/Users/reilly/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.24/microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
   ],
   "logs": []
 }

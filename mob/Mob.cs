@@ -16,7 +16,7 @@ public partial class Mob : RigidBody2D
 		// choose a random location on the path
 		// a random proportion of the total path
 		var mobSpawnLocation = mobPath;
-    	mobSpawnLocation.ProgressRatio = GD.Randf();
+		mobSpawnLocation.ProgressRatio = GD.Randf();
 
 		// get position of spawn location
 		Vector2 mobSpawnPosition = mobSpawnLocation.Position;
@@ -30,7 +30,7 @@ public partial class Mob : RigidBody2D
 
 		// set mob velocity
 		var velocity = new Vector2((float)GD.RandRange(MinMobSpeed, MaxMobSpeed), 0);
-    	mob.LinearVelocity = velocity.Rotated(direction);
+		mob.LinearVelocity = velocity.Rotated(direction);
 		return mob;
 	}
 

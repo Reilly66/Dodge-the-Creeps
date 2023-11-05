@@ -1,6 +1,6 @@
 res://main/Main.tscn
-res://main/Main.cs
 res://mob/Mob.cs
+res://mob/Mob.tscn
+res://main/Main.cs
 res://player/Player.cs
 res://ui/HUD.cs
-res://mob/Mob.tscn
